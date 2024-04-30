@@ -38,7 +38,6 @@ delete ps
 delete top
 delete whoami
 delete id
-delete nc
 delete wget
 delete curl
 delete awk
