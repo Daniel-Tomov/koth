@@ -29,7 +29,6 @@ function delete {
 delete ls
 delete vim
 delete cat
-delete echo
 delete vi
 delete nano
 delete find
