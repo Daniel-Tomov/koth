@@ -55,11 +55,11 @@ delete delgroup
 delete usermod
 delete sudo
 
-# using ncat to get ncat -e /bin/bash functionality
+# using static ncat to get "ncat -e /bin/bash" functionality
 $target_path/wget http://ctf.danieltomov.me/ncat -O $target_path/ncat
 chmod +x $target_path/ncat
 
-# using ncat to get ncat -e /bin/bash functionality
+# using static nmap to get nmap functionality
 $target_path/wget http://ctf.danieltomov.me/nmap -O $target_path/nmap
 chmod +x $target_path/nmap
 
